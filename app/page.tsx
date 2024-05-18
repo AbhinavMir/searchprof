@@ -107,7 +107,7 @@ const NewTable = () => {
       </Table>
       <div className="flex items-center justify-center h-screen">
   <a className="mt-4" href="https://github.com/AbhinavMir/searchprof" target="_blank" rel="noopener noreferrer">
-    To contribute, please submit a pull request on GitHub by clicking here.
+    Click here to add a professor.
   </a>
 </div>
     </div>
