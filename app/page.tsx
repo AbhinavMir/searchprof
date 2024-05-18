@@ -16,7 +16,7 @@ type Researcher = {
   researchAreas: string[];
 };
 
-export function NewTable() {
+const NewTable = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
   const [filteredResearchers, setFilteredResearchers] = useState<Researcher[]>(researchersData);
@@ -128,4 +128,13 @@ function FilterIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export default NewTable;
+
+const HomePage = () => {
+  return (
+    <div>
+      <NewTable />
+    </div>
+  );
+};
+
+export default HomePage;
