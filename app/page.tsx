@@ -6,30 +6,7 @@ import { Button } from "@/components/ui/button";
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu";
 import { Badge } from "@/components/ui/badge";
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table";
-
-const researchersData = [
-  {
-    name: "Dr. Emily Johnson",
-    position: "Professor",
-    affiliation: "Harvard University",
-    homepage: "https://scholar.harvard.edu/emilyjohnson",
-    researchAreas: ["Quantum Computing", "Cryptography", "Cybersecurity"]
-  },
-  {
-    name: "Prof. Michael Lee",
-    position: "Associate Professor",
-    affiliation: "Stanford University",
-    homepage: "https://scholar.google.com/michaellee",
-    researchAreas: ["Machine Learning", "Computer Vision", "Natural Language Processing"]
-  },
-  {
-    name: "Dr. Samantha Brown",
-    position: "Assistant Professor",
-    affiliation: "MIT",
-    homepage: "https://scholar.google.com/samanthabrown",
-    researchAreas: ["Robotics", "Artificial Intelligence", "Human-Robot Interaction"]
-  }
-];
+import { researchersData } from "./researchersData";
 
 type Researcher = {
   name: string;
