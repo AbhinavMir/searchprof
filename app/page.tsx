@@ -44,7 +44,7 @@ const NewTable = () => {
   };
 
   return (
-    <div className="w-full overflow-auto p-20">
+    <div className="w-full overflow-auto p-10">
       <div className="flex justify-between items-center mb-4">
         <Input
           className="w-64"
